@@ -30,6 +30,7 @@ All parameters are optional.
 | `positionStyle` | `ol.style.Style` | Style to apply to "position" feature |
 | `transformFn(geometry)` | Function | Geometry transformation function. |
 
+## Style
 
 CSS styles need to be included to style the control elements.
 
