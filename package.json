@@ -1,6 +1,6 @@
 {
   "name": "ol-geolocation",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Geolocation Control for OpenLayers",
   "main": "dist/geolocation.js",
   "author": "Eric Czajkowski",
