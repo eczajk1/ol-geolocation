@@ -25,7 +25,7 @@ new Map({
 All parameters are optional.
 
 | Parameter | Type | Description |
-| --- | --- |
+| --- | --- | --- |
 | `accuracyStyle` | `ol.style.Style`  | Style to apply to "accuracy" feature |
 | `positionStyle` | `ol.style.Style` | Style to apply to "position" feature |
 | `transformFn(geometry)` | Function | Geometry transformation function. |
