@@ -22,11 +22,13 @@ new Map({
 
 ## Options
 
-| Parameter | Description |
+All parameters are optional.
+
+| Parameter | Type | Description |
 | --- | --- |
-| `accuracyStyle` |  |
-| `positionStyle` |  |
-| `transformFn` |  |
+| `accuracyStyle` | `ol.style.Style`  | Style to apply to "accuracy" feature |
+| `positionStyle` | `ol.style.Style` | Style to apply to "position" feature |
+| `transformFn(geometry)` | Function | Geometry transformation function. |
 
 
 CSS styles need to be included to style the control elements.
