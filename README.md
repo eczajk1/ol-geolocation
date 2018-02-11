@@ -1,6 +1,12 @@
 # ol-geolocation
 Geolocation Control for OpenLayers
 
+## Install
+
+```
+npm install ol-geolocation
+```
+
 ## Usage
 
 ```js
