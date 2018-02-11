@@ -1,0 +1,25 @@
+{
+  "name": "ol-geolocation",
+  "version": "0.0.0",
+  "description": "Geolocation Control for OpenLayers",
+  "main": "dist/geolocation.js",
+  "author": "Eric Czajkowski",
+  "license": "MIT",
+  "scripts": {
+    "start": "babel-node src",
+    "build": "rimraf dist && babel src -d dist",
+    "test": "eslint src"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.6.1"
+  },
+  "dependencies": {
+    "ol": "^4.6.4"
+  }
+}
